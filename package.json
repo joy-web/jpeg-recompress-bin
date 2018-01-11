@@ -1,29 +1,17 @@
 {
-  "name": "jpeg-recompress-bin",
-  "version": "3.0.1",
+  "name": "@weus/jpeg-recompress-bin",
+  "version": "3.0.6",
   "description": "jpeg-recompress wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/jpeg-recompress-bin",
-  "author": {
-    "name": "1000ch",
-    "email": "shogo.sensui@gmail.com",
-    "url": "github.com/1000ch"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagemin/jpeg-recompress-bin.git"
   },
+  "author": "1000ch <shogo.sensui@gmail.com> (github.com/1000ch)",
   "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Kevin Mårtensson",
-      "email": "kevinmartensson@gmail.com",
-      "url": "github.com/kevva"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    }
+    "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+    "Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)",
+    "Shinnosuke Watanabe (github.com/shinnn)"
   ],
   "bin": {
     "jpeg-recompress": "cli.js"
@@ -38,7 +26,8 @@
   "files": [
     "cli.js",
     "index.js",
-    "lib"
+    "lib",
+    "vendor"
   ],
   "keywords": [
     "imagemin",
@@ -52,7 +41,6 @@
     "jpeg-recompress"
   ],
   "dependencies": {
-    "bin-wrapper": "^3.0.0",
     "logalot": "^2.0.0"
   },
   "devDependencies": {
@@ -62,5 +50,13 @@
     "execa": "^0.6.3",
     "tempy": "^0.1.0",
     "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/imagemin/jpeg-recompress-bin/issues"
+  },
+  "homepage": "https://github.com/imagemin/jpeg-recompress-bin#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   }
 }
